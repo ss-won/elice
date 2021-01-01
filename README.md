@@ -14,3 +14,4 @@ k-digital-training 교육 정리
 ||blog|code|
 |---|---|---|
 |01|[`DAY6`](https://velog.io/@ss-won/앨리스elice-레이서-1기-02주차DAY6-Git-기초)|-|
+|02|-|Git 실습(branch&merge)[repo](https://kdt-gitlab.elice.io/j_wish_/remote_repo)|
