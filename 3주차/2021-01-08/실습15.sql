@@ -3,3 +3,5 @@ SELECT * FROM emp;
 SELECT * FROM emp
 WHERE sal > ALL(SELECT sal FROM emp 
 WHERE job='MANAGER')
+
+-- ALL은 모든 데이터에 대해 &&연산을 하기 때문에, 원하는 데이터 중 최댓값을 
