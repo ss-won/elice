@@ -25,3 +25,9 @@ k-digital-training 교육 정리
 | --- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
 | 01  | [`DAY11`](https://velog.io/@ss-won/앨리스elice-레이서-1기-03주차DAY11-데이터베이스-기초), [개념정리 1](https://velog.io/@ss-won/Database-데이터베이스와-SQL), [개념정리 2](https://velog.io/@ss-won/DatabaseMySQL-MySQL-SELECT-구문-활용하기) | -    |
 | 02  | [개념정리 1](https://velog.io/@ss-won/DatabaseMySQL-MySQL-INSERT-UPDATE-DELETE-구문-사용하기), [개념정리 2](https://velog.io/@ss-won/DatabaseMySQL-MySQL-SELECT문에-Function-활용하기)                                                        | -    |
+
+- 4주차 : 파이썬 프로그래밍
+
+## REFERENCE
+
+모든 저작권은 [elice](https://elice.io)에 있습니다.
