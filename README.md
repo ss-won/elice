@@ -38,7 +38,7 @@ k-digital-training 교육을 듣고 적은 수업노트/블로그 기술정리/g
 - 5주차 : 웹 백엔드(Flask)
   | |blog|code|
   |--|--|--|
-  |01|-|**실습**<br> [실습코드 모음(1) - Flask 기초](<https://github.com/ss-won/elice/tree/master/5주차/readme.md#Flask%20웹%20프로그래밍(2021-01-19)>)|
+  |01|-|**실습**<br> [실습코드 모음(1) - Flask 기초](https://github.com/ss-won/elice/tree/master/5주차/readme.md#flask-웹-프로그래밍2021-01-19)|
 
 ## Reference
 
