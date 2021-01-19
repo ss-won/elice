@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Generator" content="EditPlus®">
+        <meta name="Author" content="">
+        <meta name="Keywords" content="">
+        <meta name="Description" content="">
+        <title>게시판 등록</title>
+        <style type="text/css">
+            body{ text-align: center; }
+        </style>
+     </head>
+    <body>
+        <h1>게시판</h1>
+        <h4>추가</h4>
+        <form action = "/create" method = "POST">
+            이름<br>
+            <input type = "text" name = "name" /><br>
+            내용<br>    
+            <textarea name = "context" cols="50" rows="10"></textarea><br><br>
+            <input type = "submit" value = "게 시" /><br>
+        </form>
+        <h4>목록보기</h4>
+        <table class="table" border="1" width = 600 style = "word-break:break-all" style="table-layout: fixed" align="center">
+        <thread>
+            <th width="4%">목차</th>
+            <th width="15%">이름</th>
+            <th width="25%">내용</th>
+        </thread>
+        {% for row in rows %}
+        <tr>
+            <td>{{ loop.index }}</td>
+            <td>{{ row[0] }}</td>
+            <td>{{ row[1] }}</td>
+        </tr>
+        {% endfor %}
+        </table>
+    </body>
+</html>

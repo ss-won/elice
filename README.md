@@ -35,6 +35,11 @@ k-digital-training 교육을 듣고 적은 수업노트/블로그 기술정리/g
 | 01  | [파이썬 string 출력방법](https://velog.io/@ss-won/Python-print시-문자열을-특정-패턴으로-출력하기) | -                                                                                                                                                                                                                                                   |
 | 02  | -                                                                                                 | **과제**<br> [주식 데이터 크롤링](https://github.com/ss-won/elice/blob/master/4주차/과제/주식%20데이터%20크롤링.py) <br> [국가별 코로나 데이터 크롤링](https://github.com/ss-won/elice/blob/master/4주차/과제/국가별%20코로나%20데이터%20크롤링.py) |
 
+- 5주차 : 웹 백엔드(Flask)
+  | |blog|code|
+  |--|--|--|
+  |01|-|**실습**<br> [실습코드 모음(1) - Flask 기초](<https://github.com/ss-won/elice/tree/master/5주차/readme.md#Flask%20웹%20프로그래밍(2021-01-19)>)|
+
 ## Reference
 
 모든 저작권은 [elice](https://elice.io)에 있습니다.
