@@ -40,6 +40,7 @@ k-digital-training 교육을 듣고 적은 수업노트/블로그 기술정리/g
   |--|--|--|
   |01|-|**실습**<br> [실습코드 모음(1) - Flask 기초](https://github.com/ss-won/elice/tree/master/5주차/readme.md#flask-웹-프로그래밍2021-01-19)|
   |02|-|**실습**<br> [JWT 방식을 사용하는 로그인 구현](https://github.com/ss-won/elice/tree/master/5주차/2021-01-20/app.py)|
+  |03|-|**실습**<br> [실습코드 모음(2) - MongoDB 기초](https://github.com/ss-won/elice/tree/master/5주차/readme.md#mongodb-기초2021-01-21)
 
 ## Reference
 

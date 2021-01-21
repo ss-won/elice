@@ -18,3 +18,18 @@
   - CREATE, READ [1](https://github.com/ss-won/elice/tree/master/5주차/2021-01-19/create%20구현.py) [2](https://github.com/ss-won/elice/tree/master/5주차/2021-01-19/read%20구현.py) [3](https://github.com/ss-won/elice/tree/master/5주차/2021-01-19/update&delete%20구현.py)
   - AJAX 적용 [1](https://github.com/ss-won/elice/tree/master/5주차/2021-01-19/AJAX%20구현.py)
   - SQL Alchemy 적용 [1](https://github.com/ss-won/elice/tree/master/5주차/2021-01-19/SQLAlchemy%20사용.py)
+
+## MongoDB 기초(2021-01-21)
+
+- MongoDB CRUD 1
+  - [데이터베이스 생성하기](https://github.com/ss-won/elice/tree/master/5주차/2021-01-21/실습1.py)
+  - [컬렉션 생성하기](https://github.com/ss-won/elice/tree/master/5주차/2021-01-21/실습2.py)
+  - [데이터 검색하기](https://github.com/ss-won/elice/tree/master/5주차/2021-01-21/실습3.py)
+  - [데이터 보기 좋게 검색하기](https://github.com/ss-won/elice/tree/master/5주차/2021-01-21/실습4.py)
+- MongoDB CRUD 2
+  - [데이터 삽입하기](https://github.com/ss-won/elice/tree/master/5주차/2021-01-21/실습5.py)
+  - [여러 데이터 삽입하기](https://github.com/ss-won/elice/tree/master/5주차/2021-01-21/실습6.py)
+  - [데이터 수정하기](https://github.com/ss-won/elice/tree/master/5주차/2021-01-21/실습7.py)
+  - [여러 데이터 수정하기](https://github.com/ss-won/elice/tree/master/5주차/2021-01-21/실습8.py)
+  - [데이터 삭제하기](https://github.com/ss-won/elice/tree/master/5주차/2021-01-21/실습9.py)
+  - [여러 데이터 삭제하기](https://github.com/ss-won/elice/tree/master/5주차/2021-01-21/실습10.py)
