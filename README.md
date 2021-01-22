@@ -37,12 +37,12 @@ k-digital-training 교육을 듣고 적은 수업노트/블로그 기술정리/g
 
 - 5주차 : 웹 백엔드(Flask)
 
-|     | blog | code                                                                                                                                                       |
-| --- | ---- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 01  | -    | **실습**<br> [실습코드 모음(1) - Flask 기초](https://github.com/ss-won/elicetreemaster/5주차/readme.md#flask-웹-프로그래밍2021-01-19)                      |
-| 02  | -    | **실습**<br> [JWT 방식을 사용하는 로그인 구현](https://github.com/ss-won/elicetreemaster/5주차/2021-01-20/app.py)                                          |
-| 03  | -    | **실습**<br> [실습코드 모음(2) - MongoDB 기초](https://github.com/ss-won/elicetreemaster/5주차/readme.md#mongodb-기초2021-01-21)                           |
-| 04  | -    | **실습**<br> [실습코드 모음(3) - 프로젝트로 배우는 MongoDB](https://github.comss-wonelice/tree/master/5주차/readme.md#프로젝트로-배우는-mongodb2021-01-22) |
+|     | blog | code                                                                                                                                                         |
+| --- | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 01  | -    | **실습**<br> [실습코드 모음(1) - Flask 기초](https://github.com/ss-won/elice/blob/master/5주차/readme.md#flask-웹-프로그래밍2021-01-19)                      |
+| 02  | -    | **실습**<br> [JWT 방식을 사용하는 로그인 구현](https://github.com/ss-won/elice/blob/master/5주차/2021-01-20/app.py)                                          |
+| 03  | -    | **실습**<br> [실습코드 모음(2) - MongoDB 기초](https://github.com/ss-won/elice/blob/master/5주차/readme.md#mongodb-기초2021-01-21)                           |
+| 04  | -    | **실습**<br> [실습코드 모음(3) - 프로젝트로 배우는 MongoDB](https://github.com/ss-won/elice/blob/master/5주차/readme.md#프로젝트로-배우는-mongodb2021-01-22) |
 
 ## Reference
 
