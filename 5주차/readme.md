@@ -33,3 +33,32 @@
   - [여러 데이터 수정하기](https://github.com/ss-won/elice/tree/master/5주차/2021-01-21/실습8.py)
   - [데이터 삭제하기](https://github.com/ss-won/elice/tree/master/5주차/2021-01-21/실습9.py)
   - [여러 데이터 삭제하기](https://github.com/ss-won/elice/tree/master/5주차/2021-01-21/실습10.py)
+
+## 프로젝트로 배우는 MongoDB(2021-01-22)
+
+- 여러가지 연산자
+  - [비교 쿼리 연산자](https://github.com/ss-won/elice/tree/master/5주차/2021-01-22/실습1.py)
+  - [논리 쿼리 연산자](https://github.com/ss-won/elice/tree/master/5주차/2021-01-22/실습2.py)
+  - [요소 쿼리 연산자](https://github.com/ss-won/elice/tree/master/5주차/2021-01-22/실습3.py)
+  - [평가 쿼리 연산자](https://github.com/ss-won/elice/tree/master/5주차/2021-01-22/실습4.py)
+  - [배열 쿼리 연산자](https://github.com/ss-won/elice/tree/master/5주차/2021-01-22/실습5.py)
+- 여러가지 메소드 활용하기
+  - [데이터 정렬하기](https://github.com/ss-won/elice/tree/master/5주차/2021-01-22/실습6.py)
+  - [데이터 갯수 제한하기](https://github.com/ss-won/elice/tree/master/5주차/2021-01-22/실습7.py)
+  - [데이터 생략하기](https://github.com/ss-won/elice/tree/master/5주차/2021-01-22/실습8.py)
+  - [데이터 수정하기](https://github.com/ss-won/elice/tree/master/5주차/2021-01-22/실습9.py)
+  - [데이터 추가하기](https://github.com/ss-won/elice/tree/master/5주차/2021-01-22/실습10.py)
+  - [데이터 제거하기](https://github.com/ss-won/elice/tree/master/5주차/2021-01-22/실습11.py)
+  - [두 컬렉션 합치기](https://github.com/ss-won/elice/tree/master/5주차/2021-01-22/실습12.py)
+- 넷플릭스 데이터 모델링
+  - [넷플릭스 데이터로 MongoDB 만들기](https://github.com/ss-won/elice/tree/master/5주차/2021-01-22/실습13.py)
+  - [넷플릭스 데이터 삽입하기](https://github.com/ss-won/elice/tree/master/5주차/2021-01-22/실습14.py)
+  - [넷플릭스 데이터 직접 삽입하기](https://github.com/ss-won/elice/tree/master/5주차/2021-01-22/실습15.py)
+  - [넷플릭스 데이터 읽기](https://github.com/ss-won/elice/tree/master/5주차/2021-01-22/실습16.py)
+  - [특정 작품 검색하기](https://github.com/ss-won/elice/tree/master/5주차/2021-01-22/실습17.py)
+- Flask & MongoDB 연동하기
+  - [Flask 연동하기](https://github.com/ss-won/elice/tree/master/5주차/2021-01-22/실습18.py)
+  - [데이터 저장하기](https://github.com/ss-won/elice/tree/master/5주차/2021-01-22/실습19.py)
+  - [데이터 리스트 출력하기](https://github.com/ss-won/elice/tree/master/5주차/2021-01-22/실습20.py)
+  - [넷플릭스 작품 정보 출력하기](https://github.com/ss-won/elice/tree/master/5주차/2021-01-22/실습21.py)
+  - [넷플릭스 작품 검색하기](https://github.com/ss-won/elice/tree/master/5주차/2021-01-22/실습22.py)
