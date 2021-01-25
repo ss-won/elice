@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+
+    <title>elice | 주가 검색</title>
+
+    <!-- style -->
+    <style type="text/css">
+        * {
+            font-family: "Stylish", Arial, Helvetica, sans-serif;
+        }
+
+        .comment {
+            color: blue;
+            font-weight: bold;
+        }
+    </style>
+    <script>
+        function findStock() {
+            let stockCode = $("#stock-code").val();
+
+            $.ajax({
+                type: "POST",
+                url: "/stock",
+                data: { stockCode: stockCode },
+                success: function (response) {
+                    if (response["result"] == "success") {
+                        alert(response.price);
+                        //mkMemo(response.price)
+                    } else {
+                        alert("err:" + response.msg);
+                    }
+                }
+            });
+        }
+    </script>
+</head>
+
+<body>
+    <div class="center">
+        <div class="jumbotron">
+            <h1 class="display-4">elice | 주가 검색</h1>
+            <p class="lead">
+                BeautifulSoup을 사용하여 현재 주가를 확인하는 페이지를 만들어 봅시다.
+            </p>
+            <hr class="my-4" />
+            <div class="form-group">
+                <label for="post-url">종목 코드를 입력해주세요</label>
+                <input id="stock-code" class="form-control" placeholder="주가 종목 코드를 입력해주세요." />
+            </div>
+            <button type="button" class="btn btn-primary" onclick="findStock()">
+                검색
+            </button>
+        </div>
+        <div id="memo-box" class="row row-cols-1 row-cols-md-3 g-4"></div>
+    </div>
+</body>
+
+</html>

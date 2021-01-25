@@ -62,3 +62,13 @@
   - [데이터 리스트 출력하기](https://github.com/ss-won/elice/tree/master/5주차/2021-01-22/실습20.py)
   - [넷플릭스 작품 정보 출력하기](https://github.com/ss-won/elice/tree/master/5주차/2021-01-22/실습21.py)
   - [넷플릭스 작품 검색하기](https://github.com/ss-won/elice/tree/master/5주차/2021-01-22/실습22.py)
+
+## Flask 복습, API 서버 만들기(2021-01-23)
+
+- Flask 복습 프로젝트
+
+  - [Flask로 로그인 구현](https://github.com/ss-won/elice/tree/master/5주차/2021-01-23/실습1.py)
+  - [Flask+MongoDB로 메모장 구현](https://github.com/ss-won/elice/tree/master/5주차/2021-01-23/실습2.py)
+  - [Flask 서버로 크롤링 내용 관리 및 출력하기](https://github.com/ss-won/elice/tree/master/5주차/2021-01-23/실습3.py)
+
+- Flask로 REST API 서버 만들기

@@ -1,0 +1,18 @@
+{% extends "layout.html" %} {% block content %}
+<form action="/user" method="POST">
+    Add username :
+    <input type="text" name="username" placeholder="Please enter username" />
+    <input type="submit" />
+</form>
+
+<p>
+    Delete username :
+    <input id="deleteUser" type="" placeholder="Please enter username" />
+    <button type="button" onclick="deleteUser()">Submit</button>
+</p>
+<br />
+<br />
+
+{% for name in names%}
+<p>{{ name }}</p>
+{% endfor %} {% endblock %}
