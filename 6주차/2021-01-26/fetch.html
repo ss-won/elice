@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="border: 5px solid red;">
+    </div>
+    <input type="button" value="fetch" onclick="
+                var url = 'https://isho4xmkk7my0jveolpu73bsbbsbzwxd.runner-forwarder-a-01.elice.io/topics/1'
+                fetch(url)
+                .then((type) => { 
+                    console.log(typeof(type))
+                    return type.json();
+                }) // type은 비동기 작업을 통해 받아온 객체
+                .then((res) => {
+                    console.log(res.id)
+                    console.log(res.title)
+                    console.log(res.description)
+                    document.querySelector('div').innerHTML = `<h1>${res.title}</h1> ${res.description}`;
+                }) // res는 위의 함수에서 반환한 return(type.text())
+            ">
+</body>
+</html>

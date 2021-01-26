@@ -1,0 +1,45 @@
+<html>
+
+<body>
+    <header>
+        <h1>WEB</h1>
+    </header>
+    <nav>
+        <ol>
+
+        </ol>
+    </nav>
+    <article>
+
+    </article>
+    <script>
+        const serverUrl = 'https://isho4xmkk7my0jveolpu73bsbbsbzwxd.runner-forwarder-a-01.elice.io/topics';
+        const eventHandler = (id) => {
+            event.preventDefault();
+            let url = serverUrl + id;
+            fetch(url)
+                .then((res) => res.json())
+                .then((resJson) => {
+                    document.querySelector('article').innerHTML = `
+                        <h1>${resJson.title}</h1>
+                        ${resJson.description}
+                    `
+                })
+        }
+        fetch(serverUrl)
+            .then(res => res.json())
+            .then(
+                function (result) {
+                    for(let res of result){
+                        console.log(res.id, res.title, res.created)
+                        document.querySelector('ol').innerHTML += 
+                        `
+                            <li><a href='/${res.id}' onclick='eventHandler(${res.id})'>${res.title}</a></li>
+                        `
+                    }
+                }
+            );
+    </script>
+</body>
+
+</html>

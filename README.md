@@ -45,6 +45,12 @@ k-digital-training 교육을 듣고 적은 수업노트/블로그 기술정리/g
 | 04  | **특강**<br> [Azure에 Nginx로 flask 앱 배포해보기](https://velog.io/@ss-won/flaskelice-flask-가상-개발환경-구축하고-Microsoft-Azure에-배포하여-nginx-적용하기) | -                                                                                                                                                            |
 | 05  | -                                                                                                                                                              | **실습**<br> [실습코드 모음(3) - 프로젝트로 배우는 MongoDB](https://github.com/ss-won/elice/blob/master/5주차/readme.md#프로젝트로-배우는-mongodb2021-01-22) |
 
+- 6주차 : 웹 프론트엔드 1
+
+| blog | code                                                                                                                                                        |
+| ---- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| -    | **실습**<br> [실습코드 모음(1) - 웹 프론트엔드 개념 익히기](https://github.com/ss-won/eliceblob/master/6주차/readme.md#웹-프론트엔드-개념-익히기2021-01-26) |
+
 ## Reference
 
 모든 저작권은 [elice](https://elice.io)에 있습니다.
